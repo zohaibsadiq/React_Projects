@@ -9,7 +9,7 @@ body {
 
 .app {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
     url('./assests/city.jpg');
   background-size: cover;
   background-position: center;
