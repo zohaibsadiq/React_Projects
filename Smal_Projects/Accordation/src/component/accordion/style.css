@@ -1,0 +1,43 @@
+.Wrapper {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.accordian {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.item {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #161515;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1574b8;
+  color: white;
+  font-size: large;
+  margin-bottom: 10px;
+}

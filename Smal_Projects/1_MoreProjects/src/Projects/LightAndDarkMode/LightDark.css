@@ -1,0 +1,45 @@
+:root{
+    --background:white;
+    --text-primary:black;
+    --button-bg:black;
+    --button-text:white;
+}
+
+[datatheme="dark"]{
+    --background:black;
+    --text-primary:white;
+    --button-bg:white;
+    --button-text:black;
+}
+
+.light-dark-mode {
+    background-color: var(--background);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s linear;
+}
+
+h1{
+    color: var(--text-primary);
+    font-size: 3rem;
+
+}
+
+button{
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s linear;
+    border-radius: 5px;
+    
+
+}
+

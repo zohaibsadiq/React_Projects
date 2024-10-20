@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+   flex-direction: column; 
+    justify-content: center;
+    align-items: center ;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.loadButton{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  
+}
