@@ -19,18 +19,21 @@ const Home = () => {
             </h1>
 
             <p className='max-w-[500px] mb-9 text-white/80'>
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologie
+              I excel at crafting elegant digital experiences and I am proficient in various programming languages and
+              technologie
             </p>
             {/* btn and social links  */}
             <div className='flex flex-col items-center gap-8 lg:flex-row'>
-              <Button
-                variant='outline'
-                size='lg'
-                className='flex items-center gap-2 uppercase'
-              >
-                <span>Download CV</span>
-                <FileDownIcon className='text-xl' />
+              <Button variant='outline' size='lg' className='uppercase '>
+                <a
+                  href='/assets/Zohaib_CV.pdf'
+                  download='Zohaib_Sadiq_CV.pdf'
+                  aria-label='Download my CV'
+                  className='flex items-center gap-2'
+                >
+                  <span>Download CV</span>
+                  <FileDownIcon className='text-xl' />
+                </a>
               </Button>
               <div className='mb-8 lg:mb-0'>
                 <Socials
